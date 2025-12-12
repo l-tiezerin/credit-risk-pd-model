@@ -1,10 +1,11 @@
 [project]
 name = "credit-risk-pd-model"
 version = "0.1.0"
-description = "Add your description here"
+description = "Probability of Default model using UCI credit dataset"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13, <3.14"
 dependencies = [
+    "ipykernel>=7.1.0",
     "jupyter>=1.1.1",
     "ucimlrepo>=0.0.7",
 ]
